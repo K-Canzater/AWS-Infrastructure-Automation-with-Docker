@@ -1,84 +1,50 @@
-# Project Title
+# 🐳 Docker Practice Lab
 
-A brief description of your project, what it does, and who it's for.
+Welcome to my Docker lab! This repo is where I practice Docker fundamentals, containerize apps, and explore real-world container workflows. It's part of my journey into cloud infrastructure and DevOps. 🚀
 
-## Table of Contents
+## 📁 Project Structure
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+```plaintext
+docker-practice/
+├── app/              # Application code (e.g., Python, Node.js, etc.)
+├── Dockerfile        # Instructions for building the image
+├── .dockerignore     # Files to exclude from the image build
+├── requirements.txt  # Python dependencies (if using Python)
+└── README.md         # You're here!
+```
 
-## Features
+## 🧠 What I'm Practicing
 
-- ✅ Feature 1
-- ✅ Feature 2
-- ✅ Feature 3
+- Writing clean, efficient Dockerfiles
+- Building and running containers locally
+- Using `.dockerignore` to optimize image builds
+- Running containerized apps with `docker run`
+- Experimenting with `docker-compose` (coming soon)
+- Learning best practices for container workflows
 
-## Installation
+## 🛠️ Tech Stack
 
-Clone the repository:
+- **Docker CLI**
+- **Python** (Flask for now, but may add other stacks)
+- **VS Code**
+- **Git & GitHub**
+
+## 🚀 How to Run It
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+# Build the Docker image
+docker build -t docker-practice-app .
+
+# Run the container
+docker run -p 8080:8080 docker-practice-app
 ```
 
-Install dependencies:
+## 🧪 Future Experiments
 
-```bash
-npm install
-# or
-yarn install
-```
-
-## Usage
-
-Start the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Build for production:
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-## Configuration
-
-You can configure the project settings in the `.env` file:
-
-```env
-API_KEY=your-api-key
-BASE_URL=https://api.example.com
-```
-
-## Screenshots
-
-| Description | Screenshot |
-|-------------|------------|
-| Home Page   | ![Home Page](screenshots/home.png) |
-| Dashboard   | ![Dashboard](screenshots/dashboard.png) |
-
-## Contributing
-
-Contributions are welcome! Please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add new feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+- Docker Compose (multi-container setup)
+- Volumes and persistent data
+- Networking between containers
+- Custom base images
+- Environment variables & `.env` files
+- Pushing images to Docker Hub
+- Deploying containers to AWS (ECS or EC2)
