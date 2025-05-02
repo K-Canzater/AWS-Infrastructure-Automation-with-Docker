@@ -1,16 +1,17 @@
 # 🐳 Docker Practice Lab
 
-Welcome to my Docker lab! This repo is where I practice Docker fundamentals, containerize apps, and explore real-world container workflows. It's part of my journey into cloud infrastructure and DevOps. 🚀
+Welcome to my Docker and AWS Automation lab! This repo is where I practice real-world DevOps workflows — including containerizing infrastructure scripts, managing AWS resources, and building repeatable automation tools using Docker and Python. 🚀
 
 ## 📁 Project Structure
 
 ```plaintext
-docker-practice/
-├── app/              # Application code (e.g., Python, Node.js, etc.)
-├── Dockerfile        # Instructions for building the image
-├── .dockerignore     # Files to exclude from the image build
-├── requirements.txt  # Python dependencies (if using Python)
-└── README.md         # You're here!
+aws-tools/
+├── stop-instances.py              # Python script to stop EC2 instances
+├── Dockerfile                     # Instructions for building the image
+├── .dockerignore                  # Files to exclude from the image build
+├── requirements.txt               # Python dependencies (if using Python)
+
+README.md                      # You're here!
 ```
 
 ## 🧠 What I'm Practicing
