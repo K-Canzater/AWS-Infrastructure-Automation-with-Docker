@@ -16,12 +16,11 @@ README.md                      # You're here!
 
 ## 🧠 What I'm Practicing
 
-- Writing clean, efficient Dockerfiles
-- Building and running containers locally
-- Using `.dockerignore` to optimize image builds
-- Running containerized apps with `docker run`
-- Experimenting with `docker-compose` (coming soon)
-- Learning best practices for container workflows
+- Writing clean, efficient Dockerfiles for infrastructure tools
+- Building and running containerized Python scripts that interact with AWS
+- Using `.dockerignore` to reduce image size
+- Exploring real-world DevOps workflows using Docker and the AWS CLI/SDK
+- Preparing for Docker use in CI/CD, Jenkins, and Kubernetes environments
 
 ## 🛠️ Tech Stack
 
