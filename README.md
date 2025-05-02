@@ -5,27 +5,29 @@ Welcome to my Docker and AWS Automation lab! This repo is where I practice real-
 ## 📁 Project Structure
 
 ```plaintext
-aws-tools/
-├── stop-instances.py              # Python script to stop EC2 instances
-├── Dockerfile                     # Instructions for building the image
-├── .dockerignore                  # Files to exclude from the image build
-├── requirements.txt               # Python dependencies (if using Python)
+docker-practice/
+├── aws-tools/   
+│   ├── stop-instances.py          # Python script to stop EC2 instances
+│   ├── Dockerfile                 # Instructions for building the image
+│   ├── requirements.txt           # Python dependencies (if using Python)
+│   └── .dockerignore              # Files to exclude from the image build
+├── README.md                      # You're here!
 
-README.md                      # You're here!
 ```
 
 ## 🧠 What I'm Practicing
 
-- Writing clean, efficient Dockerfiles for infrastructure tools
-- Building and running containerized Python scripts that interact with AWS
-- Using `.dockerignore` to reduce image size
-- Exploring real-world DevOps workflows using Docker and the AWS CLI/SDK
-- Preparing for Docker use in CI/CD, Jenkins, and Kubernetes environments
+- Writing clean, efficient Dockerfiles for AWS infrastructure automation
+- Containerizing Python scripts that use Boto3 and the AWS CLI
+- Using `.dockerignore` to reduce image size and improve build performance
+- Reproducing real-world DevOps workflows with Docker (credentials, environment vars, etc.)
+- Building a foundation for Docker use in CI/CD pipelines, Jenkins jobs, and Kubernetes clusters
 
 ## 🛠️ Tech Stack
 
 - **Docker CLI**
-- **Python** (Flask for now, but may add other stacks)
+- **Python** (for AWS automation scripts using Boto3)
+- **AWS CLI & SDK (Boto3)**
 - **VS Code**
 - **Git & GitHub**
 
@@ -44,7 +46,8 @@ docker run -p 8080:8080 docker-practice-app
 - Docker Compose (multi-container setup)
 - Volumes and persistent data
 - Networking between containers
-- Custom base images
+- Custom base images for automation tooling
 - Environment variables & `.env` files
 - Pushing images to Docker Hub
+- Integrating Docker into Jenkins pipelines
 - Deploying containers to AWS (ECS or EC2)
