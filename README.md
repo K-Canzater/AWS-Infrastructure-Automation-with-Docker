@@ -38,8 +38,12 @@ docker-practice/
 docker build -t docker-practice-app .
 
 # Run the container
-docker run -p 8080:8080 docker-practice-app
-```
+docker run \
+  -v C:/Users/YourUsername/.aws:/root/.aws \
+  -e AWS_PROFILE=YourAWSProfile \
+  -e AWS_SDK_LOAD_CONFIG=1 \
+  -e INSTANCE_IDS="i-xxxxxxxxxxxxxxxxx,i-yyyyyyyyyyyyyyyyy" \
+  stop-instances```
 
 ## 🧪 Future Experiments
 
