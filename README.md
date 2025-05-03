@@ -14,10 +14,6 @@ I created this lab to deepen my hands-on experience with:
 My goal is to simulate real-world DevOps tasks and demonstrate the ability to build reliable, portable automation tools.
 
 
-
-
-
-
 ## 🧠 What I'm Practicing
 
 - Writing clean, efficient Dockerfiles for AWS infrastructure automation
@@ -34,27 +30,10 @@ My goal is to simulate real-world DevOps tasks and demonstrate the ability to bu
 - **VS Code**
 - **Git & GitHub**
 
-## 🚀 How to Run It
+## 🔭 Future Enhancements
 
-```bash
-# Build the Docker image
-docker build -t docker-practice-app .
-
-# Run the container
-docker run \
-  -v C:/Users/YourUsername/.aws:/root/.aws \
-  -e AWS_PROFILE=YourAWSProfile \
-  -e AWS_SDK_LOAD_CONFIG=1 \
-  -e INSTANCE_IDS="i-xxxxxxxxxxxxxxxxx,i-yyyyyyyyyyyyyyyyy" \
-  stop-instances```
-
-## 🧪 Future Experiments
-
-- Docker Compose (multi-container setup)
-- Volumes and persistent data
-- Networking between containers
-- Custom base images for automation tooling
-- Environment variables & `.env` files
-- Pushing images to Docker Hub
-- Integrating Docker into Jenkins pipelines
-- Deploying containers to AWS (ECS or EC2)
+- Add Docker Compose for multi-container setups
+- Introduce .env support for cleaner variable management
+- Push images to Docker Hub for reuse
+- Expand to ECS/EKS deployment testing
+- Integrate into a full CI/CD workflow
