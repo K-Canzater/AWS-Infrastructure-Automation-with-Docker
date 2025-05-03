@@ -1,17 +1,20 @@
 # 🐳 Docker Practice Lab
 
-Welcome to my Docker and AWS Automation lab! This repo is where I practice real-world DevOps workflows — including containerizing infrastructure scripts, managing AWS resources, and building repeatable automation tools using Docker and Python. 🚀
+Welcome to my Docker lab focused on AWS infrastructure automation. This project showcases my ability to containerize Python scripts using Docker and interact with AWS services securely and repeatably — a foundational skill for real-world DevOps workflows.🚀
 
-## 📁 Project Structure
+## 💡 Why I Built This
 
-```plaintext
-docker-practice/
-├── aws-tools/   
-│   ├── stop-instances.py          # Python script to stop EC2 instances
-│   ├── Dockerfile                 # Instructions for building the image
-│   ├── requirements.txt           # Python dependencies (if using Python)
-│   └── .dockerignore              # Files to exclude from the image build
-├── README.md                      # You're here!
+I created this lab to deepen my hands-on experience with:
+
+- Containerizing infrastructure tools using Docker
+- Automating EC2 instance operations with Python (Boto3)
+- Managing environment variables and credentials securely
+- Preparing for CI/CD pipelines, Jenkins jobs, and Kubernetes workloads
+
+My goal is to simulate real-world DevOps tasks and demonstrate the ability to build reliable, portable automation tools.
+
+
+
 
 ```
 
