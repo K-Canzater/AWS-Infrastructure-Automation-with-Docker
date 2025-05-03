@@ -6,10 +6,12 @@ Welcome to my Docker lab focused on AWS infrastructure automation. This project 
 
 I created this lab to deepen my hands-on experience with:
 
+
 - Containerizing infrastructure tools using Docker
 - Automating EC2 instance operations with Python (Boto3)
 - Managing environment variables and credentials securely
 - Preparing for CI/CD pipelines, Jenkins jobs, and Kubernetes workloads
+  
 
 My goal is to simulate real-world DevOps tasks and demonstrate the ability to build reliable, portable automation tools.
 
@@ -24,11 +26,12 @@ My goal is to simulate real-world DevOps tasks and demonstrate the ability to bu
 
 ## 🛠️ Tech Stack
 
-- **Docker CLI**
-- **Python** (for AWS automation scripts using Boto3)
-- **AWS CLI & SDK (Boto3)**
-- **VS Code**
-- **Git & GitHub**
+-** Docker CLI – Containerizing infrastructure scripts**
+- Python + Boto3 – Automating AWS actions (e.g., stopping EC2 instances)
+- AWS CLI & IAM credentials – Secure access via mounted config
+- Bash scripting – Automating deployments and AWS interactions
+- VS Code & GitHub – Local development + version control
+
 
 ## 🔭 Future Enhancements
 
