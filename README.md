@@ -16,7 +16,7 @@ My goal is to simulate real-world DevOps tasks and demonstrate the ability to bu
 
 
 
-```
+
 
 ## 🧠 What I'm Practicing
 
