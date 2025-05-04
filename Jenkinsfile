@@ -1,26 +1,11 @@
 pipeline {
-    agent any
+  agent any
 
-    stages {
-        stage('Checkout') {
-            steps { checkout scm }
-        }
-        stage('Build') {
-            steps { echo 'Building…' }
-        }
-        stage('Test') {
-            steps { echo 'Testing…' }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying – stopping instances…'
-                bat 'python stop_instance.py'
-            }
-        }
+  stages {
+    stage('Check Python') {
+      steps {
+        bat 'python --version'
+      }
     }
-
-    post {
-        success { echo 'Deployment completed successfully!' }
-        failure { echo 'Deployment failed :(' }
-    }
+  }
 }
