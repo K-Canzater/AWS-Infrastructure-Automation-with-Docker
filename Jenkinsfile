@@ -1,31 +1,26 @@
 pipeline {
-  agent {
-    docker {
-      image 'python:3.12'    // pulls the official Python 3.12 image
-      args  '-u'             // (optional) keeps logs unbuffered
-    }
-  }
+    agent any
 
-  stages {
-    stage('Checkout') {
-      steps { checkout scm }
+    stages {
+        stage('Checkout') {
+            steps { checkout scm }
+        }
+        stage('Build') {
+            steps { echo 'Building…' }
+        }
+        stage('Test') {
+            steps { echo 'Testing…' }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying – stopping instances…'
+                bat 'python stop_instance.py'
+            }
+        }
     }
-    stage('Build') {
-      steps { echo 'Building…' }
-    }
-    stage('Test') {
-      steps { echo 'Testing…' }
-    }
-    stage('Deploy') {
-      steps {
-        echo 'Deploying – stopping instances…'
-        sh 'python stop_instance.py'
-      }
-    }
-  }
 
-  post {
-    success { echo 'Deployment completed successfully!' }
-    failure { echo 'Deployment failed :(' }
-  }
+    post {
+        success { echo 'Deployment completed successfully!' }
+        failure { echo 'Deployment failed :(' }
+    }
 }
