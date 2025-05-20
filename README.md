@@ -1,4 +1,4 @@
-# 🐳 Docker Practice Lab
+# 🐳 AWS Infrastructure Automation with Docker
 
 Welcome to my Docker lab focused on AWS infrastructure automation. This project showcases my ability to containerize Python scripts using Docker and interact with AWS services securely and repeatably — a foundational skill for real-world DevOps workflows.🚀
 
@@ -13,16 +13,17 @@ I created this lab to deepen my hands-on experience with:
 - Preparing for CI/CD pipelines, Jenkins jobs, and Kubernetes workloads
   
 
-My goal is to simulate real-world DevOps tasks and demonstrate the ability to build reliable, portable automation tools.
+Designed to replicate production-level DevOps workflows, this project highlights my ability to build portable, repeatable automation tools that streamline cloud operations.
 
 
-## 🧠 What I'm Practicing
+## 🧠 Key Skills Demonstrated
 
-- Writing clean, efficient Dockerfiles for AWS infrastructure automation
-- Containerizing Python scripts that use Boto3 and the AWS CLI
-- Using `.dockerignore` to reduce image size and improve build performance
-- Reproducing real-world DevOps workflows with Docker (credentials, environment vars, etc.)
-- Building a foundation for Docker use in CI/CD pipelines, Jenkins jobs, and Kubernetes clusters
+- Developed optimized Dockerfiles to containerize Python automation scripts
+- Automated AWS EC2 instance lifecycle management using Boto3
+- Applied secure handling of AWS credentials and environment variables inside containers
+- Emulated real-world DevOps scenarios including Docker image optimization with .dockerignore
+- Laid the groundwork for future CI/CD and Kubernetes integration
+
 
 ## 🛠️ Tech Stack
 
@@ -30,7 +31,12 @@ My goal is to simulate real-world DevOps tasks and demonstrate the ability to bu
 - **Python + Boto3** – Automating AWS actions (e.g., stopping EC2 instances)  
 - **AWS CLI & IAM credentials** – Secure access via mounted config  
 - **Bash scripting** – Automating deployments and AWS interactions  
-- **VS Code & GitHub** – Local development + version control  
+- **VS Code & GitHub** – Local development + version control
+
+## What This Enables
+This containerized automation toolkit ensures consistent, repeatable AWS environment management, reducing manual effort and minimizing configuration errors — essential for scalable, maintainable cloud infrastructure.
+
+
 
 
 ## 🔭 Future Enhancements
