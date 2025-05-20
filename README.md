@@ -1,6 +1,7 @@
 # 🐳 AWS Infrastructure Automation with Docker
 
-Welcome to my Docker lab focused on AWS infrastructure automation. This project showcases my ability to containerize Python scripts using Docker and interact with AWS services securely and repeatably — a foundational skill for real-world DevOps workflows.🚀
+Welcome to my AWS Infrastructure Automation project using Docker. This repository showcases a containerized Python toolkit designed to automate AWS operations reliably and securely — a key capability for modern DevOps workflows. 🚀
+
 
 ## 💡 Why I Built This
 
@@ -33,7 +34,7 @@ Designed to replicate production-level DevOps workflows, this project highlights
 - **Bash scripting** – Automating deployments and AWS interactions  
 - **VS Code & GitHub** – Local development + version control
 
-## What This Enables
+## ⚙️ What This Enables
 This containerized automation toolkit ensures consistent, repeatable AWS environment management, reducing manual effort and minimizing configuration errors — essential for scalable, maintainable cloud infrastructure.
 
 
