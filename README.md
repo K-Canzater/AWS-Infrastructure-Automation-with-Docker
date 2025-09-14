@@ -26,7 +26,7 @@ I developed this project to deepen hands-on experience with:
 
 - Docker CLI | Python + Boto3 | AWS CLI & IAM | Bash | Git/GitHub
   
-## Impact / QA Takeaway:
+## ⚙️ Impact / QA Takeaway:
 
 This project emphasizes accuracy, repeatability, and error detection, showing transferable QA skills in testing infrastructure, validating configurations, and building automated verification workflows.
 
